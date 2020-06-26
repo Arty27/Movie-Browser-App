@@ -19,7 +19,7 @@
         <hr>
         <p>The Movie Browser app is well designed for even Mobile Views</p>
         <p>Mobile View</p>
-        <img src="images/img3.png" alt="Mobile View"  style="width: 250px;height: 450px;">
+        <img src="images/img3.png" alt="Mobile View" width="250px" height="450px">
         <hr>
         <h3>Getting Started</h3><hr>
         <ul>
