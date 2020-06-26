@@ -1,0 +1,27 @@
+.bold{
+    font-weight: bold;
+}
+.brand{
+    font-weight: bold;
+    font-size: 25px;
+    transition: all 0.8s ease;
+}
+.brand:hover{
+    transform: scale(1.05);
+}
+.brand:active,.brand:focus{
+    outline: none;
+}
+.full-size{
+    width: 60%;
+}
+input[type=text]{
+    border:none;
+    border-radius: 5px 0 0 5px;
+}
+.submit{
+    border-radius: 0 5px 5px 0;
+}
+.d-table-cell{
+    width: 100%;
+}

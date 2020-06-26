@@ -1,0 +1,20 @@
+<div class="alert alert-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h4 [routerLink]="['/home']" class="clickable brand"> <img src="/assets/icons/android-chrome-192x192.png" alt="Movie Browser" width="50px" height="50px">
+                     <strong class="text text-primary">Movie</strong> Browser</h4>
+            </div>
+            <div class="col-md-8">
+                <form (submit)="onSubmit($event)">
+                    <div class="d-table-cell">
+                        <input type="text" name="searchTerm" class="form-control d-table-cell w-100" [(ngModel)]="searchTerm" autofocus placeholder="Search Movies">
+                    </div>
+                    <div class="d-table-cell align-middle">
+                        <button type="submit" class="submit btn btn-success d-table-cell align-middle">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

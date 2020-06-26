@@ -1,0 +1,53 @@
+<div class="text-center" *ngIf="!movie">
+    <img src="/assets/images/load.gif" width="100px" height="100px">
+</div>
+<div class="row" *ngIf="movie">
+    <div class="col-md-4">
+        <img [src]="movie.Poster" class="img img-thumbnail" [alt]="movie.Title">
+    </div>
+    <div class="col-md-8">
+        <h3>{{movie.Title}}</h3>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>Released</td>
+                    <td>{{movie.Released}}</td>
+                </tr>
+                <tr>
+                    <td>Genre</td>
+                    <td>{{movie.Genre}}</td>
+                </tr>
+                <tr *ngIf="movie.totalSeasons">
+                    <td>Total Seasons</td>
+                    <td>{{movie.totalSeasons}}</td>
+                </tr>
+                <tr>
+                    <td>Actors</td>
+                    <td>{{movie.Actors}}</td>
+                </tr>
+                <tr>
+                    <td>Type</td>
+                    <td>{{movie.Type | titlecase}}</td>
+                </tr>
+                <tr>
+                    <td style="width: 20%;">imdb Rating</td>
+                    <td>{{movie.imdbRating}}</td>
+                </tr>
+                <tr>
+                    <td>Box-Office</td>
+                    <td>{{movie.BoxOffice}}</td>
+                </tr>
+                <tr>
+                    <td>Production</td>
+                    <td>{{movie.Production}}</td>
+                </tr>
+                <tr>
+                    <td>Plot</td>
+                    <td>{{movie.Plot}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="btn btn-success mt-2" (click)="goBack()"><i class="fa fa-arrow-circle-o-left mr-2"></i>Back</button>
+
+    </div>
+</div>
