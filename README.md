@@ -19,9 +19,9 @@
         <hr>
         <p>The Movie Browser app is well designed for even Mobile Views</p>
         <p>Mobile View</p>
-        <img src="images/img3.png" alt="Mobile View"  style="width: 20%;height: 450px;">
+        <img src="images/img3.png" alt="Mobile View"  style="width: 250px;height: 450px;">
         <hr>
-        <h3>Getting Started</h3>
+        <h3>Getting Started</h3><hr>
         <ul>
             <li>Install nodejs from the <a href="https://nodejs.org/en/">Official NodeJs Page</a></li>
             <li>Open the poject in terminal or command prompt</li>
@@ -35,7 +35,7 @@
             <li>Select the Free Option and enter your Email to recieve a unique API Key</li>
             <li>Place your API Key value at the end of <code>http://www.omdbapi.com/?apikey=</code> in services/movies.service.ts</li>
         </ul>
-        <h3>Progressive Web App</h3>
+        <h3>Progressive Web App</h3><hr>
         A progressive web app (PWA) is a website that looks and behaves as if it is a mobile app.
          PWAs are built to take advantage of native mobile device features, without requiring the end user to visit an 
          app store, make a purchase and download software locally. Unlike traditional apps, progressive web apps are a 
@@ -46,7 +46,7 @@
              <li>Install the angular cli. Refer <a href="https://angular.io/guide/setup-local">Official Angular Site</a></li>
              <li>Run <code>ng add @angular/pwa</code></li>
          </ul>
-         <h3>Firebase</h3>
+         <h3>Firebase</h3><hr>
          It is used for Hosting the app. Install Firebase using npm. Refer <a href="https://www.npmjs.com/package/firebase">Install Firebase</a>
          <p>Run <code>firebase init</code> in project folder and proceed to <code>(public) dist/movie-browswer</code></p>
          <ul>
