@@ -4,7 +4,7 @@
         <h1>Movie Browser App</h1>
         <h3><a href="https://movie-browser27.web.app/home">MovieBrowserApp</a></h3>
         <a href="https://img.shields.io/badge/version-1.0-blueviolet"><img src="https://img.shields.io/badge/version-1.0-blueviolet"></a>
-        <a href="https://img.shields.io/badge/version-1.0-blueviolet"><img src="https://img.shields.io/badge/chat-on Instagram-informational"></a>
+        <a href="https://www.instagram.com/vinay_n_arty27/"><img src="https://img.shields.io/badge/chat-on Instagram-informational"></a>
         <p>Movie Browser App is progressive web app(PWA) built using angular. We can search movies and get more information about these movies.
             I have used the <b>The Open Movie Database(omdb)</b> api to get list and information of movies. Our App displays a list of 10 movies 
             which have the search keyword included in their name. Below is the image of the search and its results.
@@ -19,7 +19,7 @@
         <hr>
         <p>The Movie Browser app is well designed for even Mobile Views</p>
         <p>Mobile View</p>
-        <img src="images/img3.png" alt="Mobile View" style="max-width: 300px;">
+        <img src="images/img3.png" alt="Mobile View"  style="width: 20%;height: 450px;">
         <hr>
         <h3>Getting Started</h3>
         <ul>
