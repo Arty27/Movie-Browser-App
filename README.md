@@ -25,6 +25,7 @@
         <ul>
             <li>Install nodejs from the <a href="https://nodejs.org/en/">Official NodeJs Page</a></li>
             <li>Open the poject in terminal or command prompt</li>
+            <li>Run <code>npm install</code> to install the necessary packages.</li>
             <li>Run <code>npm start</code> to start the server</li>
             <li>Once Compiled succesfully you will see the app running in <code> http://localhost:4200/</code></li>
         </ul>
