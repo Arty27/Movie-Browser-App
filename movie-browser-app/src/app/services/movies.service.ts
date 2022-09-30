@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-const baseURL:string="http://www.omdbapi.com/?apikey=e7d1a7c5"
+const baseURL:string="http://www.omdbapi.com/?apikey=Your_API_KEY_HERE"
 
 @Injectable({
   providedIn: 'root'
